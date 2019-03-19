@@ -1,2 +1,2 @@
 # puml-logo
-*collection of icons to use for plantuml diagrams*
+*collection of 100x100 images to use for plantuml diagrams*
