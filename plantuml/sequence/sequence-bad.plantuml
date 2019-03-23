@@ -1,0 +1,19 @@
+@startuml
+participant "webapp\n" as webapp
+participant "api\n" as api
+participant "queue\n" as q
+participant "consumer\n" as cons
+participant "reports\n" as db
+
+webapp --> api: POST /cats?amount=232
+activate api
+api --> q: [cats 232]
+api --> webapp: 200 success
+deactivate api
+
+q --> cons: [cats 232]
+cons --> db: UPDATE cats SET total = total + 232
+activate db
+db --> cons: UPDATE 1
+deactivate db
+@enduml

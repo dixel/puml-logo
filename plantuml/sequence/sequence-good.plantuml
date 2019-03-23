@@ -1,0 +1,25 @@
+@startuml
+skinparam monochrome true
+skinparam handwritten true
+
+skinparam DefaultFontName Ani
+!define IMG(param) <img:https://raw.githubusercontent.com/dixel/puml-logo/master/pics/50x50/param.png>
+
+participant "webapp\n IMG(vuejs)" as webapp
+participant "api\n IMG(rust)" as api
+participant "queue\n IMG(rabbitmq)" as q
+participant "consumer\n IMG(java)" as cons
+participant "db\n IMG(postgres)" as db
+
+webapp --> api: POST /cats?amount=232
+activate api
+api --> q: [cats 232]
+api --> webapp: 200 success
+deactivate api
+
+q --> cons: [cats 232]
+cons --> db: UPDATE cats SET total = total + 232
+activate db
+db --> cons: UPDATE 1
+deactivate db
+@enduml

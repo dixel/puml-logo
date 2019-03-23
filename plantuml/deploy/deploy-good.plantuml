@@ -1,0 +1,35 @@
+@startuml
+skinparam monochrome true
+skinparam DefaultFontName URW Chancery L
+left to right direction
+
+!define IMG(param) <img:https://raw.githubusercontent.com/dixel/puml-logo/master/pics/50x50/param.png>
+
+database "payments\n IMG(postgres)" as postgres
+database "customers\n IMG(cassandra)" as cassandra
+database "hdfs\n IMG(hadoop)" as hdfs
+database "redshift\n IMG(aws)" as redshift
+database "elasticsearch\n IMG(elasticsearch)" as elastic
+
+queue "events\n IMG(kafka)" as kafka
+
+storage "maestro-service\n IMG(java)" as maestro
+storage "mastercard-service\n IMG(scala)" as mastercard
+storage "visa-service\n IMG(clojure)" as visa
+storage "payment-service\n IMG(haskell)" as payments
+storage "aws-adept-service\n IMG(python)" as awsadept
+
+maestro --> kafka
+mastercard --> kafka
+visa --> kafka
+
+payments <--> postgres
+payments <--> cassandra
+kafka --> awsadept
+
+kafka --> hdfs
+kafka --> elastic
+kafka --> payments
+kafka --> redshift
+
+@enduml

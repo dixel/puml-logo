@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+database "payments\n" as postgres
+database "customers\n" as cassandra
+database "hdfs\n" as hdfs
+database "redshift\n" as redshift
+database "elasticsearch\n" as elastic
+
+queue "events\n" as kafka
+
+storage "maestro-service\n" as maestro
+storage "mastercard-service\n" as mastercard
+storage "visa-service\n" as visa
+storage "payment-service\n" as payments
+storage "aws-adept-service\n" as awsadept
+
+maestro --> kafka
+mastercard --> kafka
+visa --> kafka
+
+payments <--> postgres
+payments <--> cassandra
+kafka --> awsadept
+
+kafka --> hdfs
+kafka --> elastic
+kafka --> payments
+kafka --> redshift
+
+@enduml
