@@ -1,5 +1,5 @@
 # puml-logo
-*collection of 100x100 images to use for plantuml diagrams*
+*collection of 100x100 images to use in plantuml diagrams*
 
 | ![](./pics/100x100/ansible.png) | ![](./pics/100x100/haskell.png)  | ![](./pics/100x100/hadoop.png)       |
 |---------------------------------|----------------------------------|--------------------------------------|
