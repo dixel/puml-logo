@@ -1,6 +1,7 @@
 # puml-logo
 *collection of 100x100 images to use for plantuml diagrams*
 
+|-------------------------------|--------------------------------|------------------------------------|
 | ![](./pics/50x50/airflow.png) | ![](./pics/50x50/android.png)  | ![](./pics/50x50/cassandra.png)    |
 | ![](./pics/50x50/clojure.png) | ![](./pics/50x50/docker.png)   | ![](./pics/50x50/elasticsearch.png)|
 | ![](./pics/50x50/emacs.png)   | ![](./pics/50x50/vim.png)      | ![](./pics/50x50/git.png)          |
