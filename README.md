@@ -1,13 +1,13 @@
 # puml-logo
 *collection of 100x100 images to use for plantuml diagrams*
 
-|                               |                                |                                    |
-|-------------------------------|--------------------------------|------------------------------------|
-| ![](./pics/50x50/airflow.png) | ![](./pics/50x50/android.png)  | ![](./pics/50x50/cassandra.png)    |
-| ![](./pics/50x50/clojure.png) | ![](./pics/50x50/docker.png)   | ![](./pics/50x50/elasticsearch.png)|
-| ![](./pics/50x50/emacs.png)   | ![](./pics/50x50/vim.png)      | ![](./pics/50x50/git.png)          |
-| ![](./pics/50x50/hive.png)    | ![](./pics/50x50/jupyter.png)  | ![](./pics/50x50/k8s.png)          |
-| ![](./pics/50x50/postgres.png)| ![](./pics/50x50/terraform.png)| ![](./pics/50x50/python.png)       |
-| ![](./pics/50x50/kafka.png)   | ![](./pics/50x50/rabbitmq.png) | ![](./pics/50x50/rust.png)         |
-| ![](./pics/50x50/java.png)    | ![](./pics/50x50/scala.png)    | ![](./pics/50x50/erlang.png)       |
+| ![](./pics/100x100/ansible.png) | ![](./pics/100x100/haskell.png)  | ![](./pics/100x100/hadoop.png)       |
+|---------------------------------|----------------------------------|--------------------------------------|
+| ![](./pics/100x100/airflow.png) | ![](./pics/100x100/android.png)  | ![](./pics/100x100/cassandra.png)    |
+| ![](./pics/100x100/clojure.png) | ![](./pics/100x100/docker.png)   | ![](./pics/100x100/elasticsearch.png)|
+| ![](./pics/100x100/emacs.png)   | ![](./pics/100x100/vim.png)      | ![](./pics/100x100/git.png)          |
+| ![](./pics/100x100/hive.png)    | ![](./pics/100x100/jupyter.png)  | ![](./pics/100x100/k8s.png)          |
+| ![](./pics/100x100/postgres.png)| ![](./pics/100x100/terraform.png)| ![](./pics/100x100/python.png)       |
+| ![](./pics/100x100/kafka.png)   | ![](./pics/100x100/rabbitmq.png) | ![](./pics/100x100/rust.png)         |
+| ![](./pics/100x100/java.png)    | ![](./pics/100x100/scala.png)    | ![](./pics/100x100/erlang.png)       |
 
