@@ -11,6 +11,7 @@ This is my attempt to make it a bit nicer for personal usage.
 | ![](./pics/100x100/airflow.png) | ![](./pics/100x100/android.png)  | ![](./pics/100x100/cassandra.png)    | ![](./pics/100x100/clojure.png) | ![](./pics/100x100/docker.png)   | ![](./pics/100x100/elasticsearch.png)|
 | ![](./pics/100x100/emacs.png)   | ![](./pics/100x100/vim.png)      | ![](./pics/100x100/git.png)          | ![](./pics/100x100/hive.png)    | ![](./pics/100x100/jupyter.png)  | ![](./pics/100x100/k8s.png)          |
 | ![](./pics/100x100/postgres.png)| ![](./pics/100x100/terraform.png)| ![](./pics/100x100/python.png)       | ![](./pics/100x100/kafka.png)   | ![](./pics/100x100/rabbitmq.png) | ![](./pics/100x100/rust.png)         |
+| ![](./pics/100x100/jenkins.png) | ![](./pics/100x100/apple.png)    | ![](./pics/100x100/aws.png)          | ![](./pics/100x100/grafana.png) | ![](./pics/100x100/kotlin.png)   | ![](./pics/100x100/prometheus.png)   |
 
 ## Samples
 
